@@ -7,6 +7,8 @@ The training and development dataset are under [data](/data)
 
 ## Code
 
+To pretrain a transformer based model on WikiNLI with the Huggingface transformers framework, use the following scripts. 
+
 ```bash
 python code/run_wikinli.py \
     --model_type bert \
@@ -50,6 +52,14 @@ python code/run_wikinli.py \
     --output_dir ./saved_outputs/roberta-large 
 ```
 
+after the model is finished pretraining, modify the saved model by removing the top linear layer. 
+
+```bash
+mv [PATH]/pytorch_model.bin [PATH]/raw_pytorch_model.bin
+python code/modify_saved_model.py [PATH]/raw_pytorch_model.bin [PATH]/pytorch_model.bin
+``` 
+
+To evaluate on NLI related tasks after pretraining on WikiNLI, follow the instructions of [evaluating GLUE tasks by Huggingface](https://github.com/huggingface/transformers/tree/master/examples/text-classification). 
 
 ### Dependency
 
