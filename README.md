@@ -5,6 +5,11 @@ dataset and code for the paper [Mining Knowledge for Natural Language Inference 
 ## Dataset
 The training and development dataset are under [data](/data)
 
+### Other languages
+
+- WikiNLI constructed from Wikipedia of other languages are under [data/mWikiNLI](data/mWikiNLI), we provide four versions, Chinese(zh), French(fr), Arabic(ar) and Urdu(ur)
+- WikiNLI constructed by translating English WikiNLI to other languages are under [data/trWikiNLI](data/trWikiNLI), we provide four versions, Chinese(zh), French(fr), Arabic(ar) and Urdu(ur)
+
 ## Code
 
 To pretrain a transformer based model on WikiNLI with the Huggingface transformers framework, use the following scripts. 
