@@ -1,6 +1,6 @@
 # WikiNLI
 
-dataset and code for the paper [Mining Knowledge for Natural Language Inference from Wikipedia Categories]()
+The dataset and code for the paper [Mining Knowledge for Natural Language Inference from Wikipedia Categories]()
 
 ## Dataset
 The training and development dataset are under [data](/data)
@@ -9,6 +9,10 @@ The training and development dataset are under [data](/data)
 
 - WikiNLI constructed from Wikipedia of other languages are under [data/mWikiNLI](data/mWikiNLI), we provide four versions, Chinese(zh), French(fr), Arabic(ar) and Urdu(ur)
 - WikiNLI constructed by translating English WikiNLI to other languages are under [data/trWikiNLI](data/trWikiNLI), we provide four versions, Chinese(zh), French(fr), Arabic(ar) and Urdu(ur)
+
+## WordNet and WikiData
+
+- The [WordNet](/data/wordnet) and [WikiData](/data/wikidata) we used in the experiments described in the WikiNLI paper
 
 ## Code
 
