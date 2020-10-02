@@ -3,7 +3,9 @@
 The dataset and code for the paper [Mining Knowledge for Natural Language Inference from Wikipedia Categories]()
 
 ## Dataset
-The training and development dataset are under [data](/data)
+The training and development dataset are under [data/WikiNLI](/data/WikiNLI)
+
+In the paper we sampled 100k instances for our experiments, and the 100k version of training set can be found under [data/WikiNLI/100k](/data/WikiNLI/100k)
 
 ### Other languages
 
