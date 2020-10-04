@@ -63,14 +63,14 @@ python code/run_wikinli.py \
     --output_dir ./saved_outputs/roberta-large 
 ```
 
-A WikiNLI pretrained roberta-large model can be downloaded from [https://drive.google.com/file/d/1RJgewj2TPXI2lDNuxEO1gq9aSTkdRxiZ/view?usp=sharing](https://drive.google.com/file/d/1RJgewj2TPXI2lDNuxEO1gq9aSTkdRxiZ/view?usp=sharing)
-
 after the model is finished pretraining, modify the saved model by removing the top linear layer. 
 
 ```bash
 mv [PATH]/pytorch_model.bin [PATH]/raw_pytorch_model.bin
 python code/modify_saved_model.py [PATH]/raw_pytorch_model.bin [PATH]/pytorch_model.bin
 ``` 
+
+A WikiNLI pretrained roberta-large model can be downloaded from [https://drive.google.com/file/d/1RJgewj2TPXI2lDNuxEO1gq9aSTkdRxiZ/view?usp=sharing](https://drive.google.com/file/d/1RJgewj2TPXI2lDNuxEO1gq9aSTkdRxiZ/view?usp=sharing)
 
 To evaluate on NLI related tasks after pretraining on WikiNLI, follow the instructions of [evaluating GLUE tasks by Huggingface](https://github.com/huggingface/transformers/tree/master/examples/text-classification). 
 
