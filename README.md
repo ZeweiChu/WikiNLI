@@ -63,6 +63,8 @@ python code/run_wikinli.py \
     --output_dir ./saved_outputs/roberta-large 
 ```
 
+A WikiNLI pretrained roberta-large model can be downloaded from [https://drive.google.com/file/d/1RJgewj2TPXI2lDNuxEO1gq9aSTkdRxiZ/view?usp=sharing](https://drive.google.com/file/d/1RJgewj2TPXI2lDNuxEO1gq9aSTkdRxiZ/view?usp=sharing)
+
 after the model is finished pretraining, modify the saved model by removing the top linear layer. 
 
 ```bash
