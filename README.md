@@ -1,6 +1,6 @@
 # WikiNLI
 
-The dataset and code for the paper [Mining Knowledge for Natural Language Inference from Wikipedia Categories]()
+The dataset and code for the paper [Mining Knowledge for Natural Language Inference from Wikipedia Categories](https://arxiv.org/abs/2010.01239).
 
 ## Dataset
 The training and development dataset are under [data/WikiNLI](/data/WikiNLI)
@@ -81,3 +81,11 @@ To evaluate on NLI related tasks after pretraining on WikiNLI, follow the instru
 
 
 ## Citation
+```
+@inproceedings{chen2020mining,
+      title={Mining Knowledge for Natural Language Inference from Wikipedia Categories}, 
+      author={Mingda Chen and Zewei Chu and Karl Stratos and Kevin Gimpel},
+      booktitle = {Findings of {EMNLP}},
+      year={2020},
+}
+```
